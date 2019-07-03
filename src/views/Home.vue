@@ -1,11 +1,16 @@
 <template>
   <div class="HomePage">
-    <h1>Home</h1>
+    <product-slot />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
+import ProductSlot from '@/components/ProductSlot.vue';
 
-export default Vue.extend({});
+export default Vue.extend({
+  components: {
+    ProductSlot,
+  },
+});
 </script>

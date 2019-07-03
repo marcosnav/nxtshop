@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Logo :loading="loading" />
+    <logo />
     <router-view />
   </div>
 </template>
@@ -12,22 +12,6 @@ import Logo from '@/components/Logo.vue';
 export default Vue.extend({
   components: {
     Logo,
-  },
-
-  data() {
-    return {
-      loading: false,
-    };
-  },
-
-  mounted() {
-    setTimeout(() => {
-      this.loading = true;
-    }, 5000);
-
-    setTimeout(() => {
-      this.loading = false;
-    }, 10000);
   },
 });
 </script>
