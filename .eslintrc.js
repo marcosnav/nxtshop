@@ -7,7 +7,8 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
-    "no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-inner-declarations": "off",
     "comma-dangle": [2, "always-multiline"],
     "prettier/prettier": [
       "error",
