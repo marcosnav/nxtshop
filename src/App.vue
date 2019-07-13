@@ -64,7 +64,7 @@ small
   font-size: 0.833em
 
 #app
-  color: #2c3e50
+  color: var(--text)
   margin: auto
   max-width: 520px
   padding: 26px

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductSlot> renders properly 1`] = `
+<div
+  class="ProductSlot"
+>
+  <figure
+    class="ProductThumb"
+  >
+    <img
+      alt="SmartWatch X"
+      class="ProductThumb__image"
+      src="https://bla.bla.image.com/tech.jpg"
+    />
+  </figure>
+   
+  <section
+    class="ProductSlot__meta"
+  >
+    <div
+      class="PriceTag"
+    >
+      $599
+    </div>
+     
+    <h1
+      class="SectionTitle"
+    >
+      
+      SmartWatch X
+    
+    </h1>
+     
+    <h2
+      class="Tagline"
+    >
+      
+      Smart tech wrapping your wrist
+    
+    </h2>
+  </section>
+   
+  <section
+    class="ProductSlot__actions"
+  >
+    <button
+      class="OneButton OneButton--small OneButton--textline"
+    >
+      
+      Add to Wishlist
+    
+    </button>
+     
+    <button
+      class="OneButton OneButton--small"
+    >
+      
+      Get It Now
+    
+    </button>
+  </section>
+</div>
+`;

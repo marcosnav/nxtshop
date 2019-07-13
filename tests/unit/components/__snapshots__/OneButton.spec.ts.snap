@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OneButton> button sizes big=true 1`] = `
+<button
+  class="OneButton OneButton--big"
+/>
+`;
+
+exports[`<OneButton> button sizes small=true 1`] = `
+<button
+  class="OneButton OneButton--small"
+/>
+`;
+
+exports[`<OneButton> button types secondary=true 1`] = `
+<button
+  class="OneButton OneButton--secondary"
+/>
+`;
+
+exports[`<OneButton> button types textline=true 1`] = `
+<button
+  class="OneButton OneButton--textline"
+/>
+`;
+
+exports[`<OneButton> renders properly 1`] = `
+<button
+  class="OneButton"
+>
+  Add to Cart
+</button>
+`;

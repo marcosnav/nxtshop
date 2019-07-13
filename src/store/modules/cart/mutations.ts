@@ -7,9 +7,9 @@ export const mutations: MutationTree<Cart.State> = {
   [UPDATE_CART](state, payload: Cart.UpdatePayload) {
     const { operation, item } = payload;
     if (operation === 'ADD') {
-      state.products = [item];
+      state.products.add(item);
     } else {
-      state.products = [];
+      state.products.delete(item);
     }
   },
 };

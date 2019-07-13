@@ -65,6 +65,7 @@ export default Vue.extend({
   display: flex
   height: 26px
   justify-content: center
+  margin-bottom: 26px
   position: relative
 
   &__icon

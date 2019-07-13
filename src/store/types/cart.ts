@@ -2,7 +2,7 @@ import { Commit } from 'vuex';
 
 export namespace Cart {
   export interface State {
-    products: string[];
+    products: Set<string>;
   }
 
   /**

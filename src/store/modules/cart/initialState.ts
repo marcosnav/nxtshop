@@ -1,5 +1,5 @@
-import { CartState } from '@/store/types';
+import { Cart } from '@/store/types';
 
-export const initialState: CartState = {
-  products: [],
+export const initialState: Cart.State = {
+  products: new Set(),
 };

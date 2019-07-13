@@ -50,6 +50,7 @@ export default Vue.extend({
   border-radius: 6px
   box-shadow: 0 3px 6px 0px rgba(0,0,0,0.16)
   margin: 0
+  margin-bottom: 26px
   overflow: hidden
   position: relative
 

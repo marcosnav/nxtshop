@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo> :loading=true animates the logo icon 1`] = `
+<div
+  class="Logo Logo--loading-anim"
+>
+  <div
+    class="Logo__icon"
+  >
+    <div
+      class="Logo__icon-sq"
+    />
+     
+    <div
+      class="Logo__icon-sq"
+    />
+     
+    <div
+      class="Logo__icon-sq"
+    />
+  </div>
+   
+  <h1
+    class="Logo__word"
+  >
+    
+    NxtShop
+  
+  </h1>
+</div>
+`;
+
+exports[`<Logo> renders properly 1`] = `
+<div
+  class="Logo"
+>
+  <div
+    class="Logo__icon"
+  >
+    <div
+      class="Logo__icon-sq"
+    />
+     
+    <div
+      class="Logo__icon-sq"
+    />
+     
+    <div
+      class="Logo__icon-sq"
+    />
+  </div>
+   
+  <h1
+    class="Logo__word"
+  >
+    
+    NxtShop
+  
+  </h1>
+</div>
+`;
