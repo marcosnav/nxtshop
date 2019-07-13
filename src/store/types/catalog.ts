@@ -1,5 +1,4 @@
 export namespace Catalog {
-
   export interface ProductMeta {
     id: string;
     name: string;
